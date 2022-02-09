@@ -83,7 +83,7 @@
           </form>
         </div>
         <div class="header__logo js-logo">
-          <a href="index.html">
+          <a href="main.html">
             <!-- 1х: 66px; -->
             <img width="66" height="66" src="img/chjewellery.svg" alt="Логотип Chjewellery">
           </a>
@@ -143,104 +143,106 @@
           <div class="filter__content form">
             <h3 class="v-hidden">Goods filter</h3>
             <form action="https://echo.htmlacademy.ru" method="get" aria-label="Filter form">
-              <div class="filter__item js-filter-accordion active">
-                <div class="filter__item-title">
-                  Product
-                  <button type="button" name="toggle" aria-label="show/hide faq item">
-                    <!-- 1х: 17px; -->
-                    <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--up"></use></svg>
-                    <!-- 1х: 17px; -->
-                    <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--down"></use></svg>
-                  </button>
-                </div>
-                <div class="filter__item-content">
-                  <div class="form__input-group form__input-group-static">
-                    <input type="checkbox" id="necklaces" name="necklaces" checked="">
-                    <label for="necklaces">Necklaces</label>
+              <div class="filter__items">
+                <div class="filter__item js-filter-accordion active">
+                  <div class="filter__item-title">
+                    Product
+                    <button type="button" name="toggle" aria-label="show/hide faq item">
+                      <!-- 1х: 17px; -->
+                      <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--up"></use></svg>
+                      <!-- 1х: 17px; -->
+                      <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--down"></use></svg>
+                    </button>
                   </div>
-                  <div class="form__input-group form__input-group-static">
-                    <input type="checkbox" id="chokers" name="chokers" checked="">
-                    <label for="chokers">Chokers</label>
-                  </div>
-                  <div class="form__input-group form__input-group-static">
-                    <input type="checkbox" id="rings" name="rings">
-                    <label for="rings">Rings</label>
-                  </div>
-                  <div class="form__input-group form__input-group-static">
-                    <input type="checkbox" id="earrings" name="earrings" checked="">
-                    <label for="earrings">Earrings</label>
-                  </div>
-                </div>
-              </div>
-              <div class="filter__item js-filter-accordion">
-                <div class="filter__item-title">
-                  Material
-                  <button type="button" name="toggle" aria-label="show/hide faq item">
-                    <!-- 1х: 17px; -->
-                    <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--up"></use></svg>
-                    <!-- 1х: 17px; -->
-                    <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--down"></use></svg>
-                  </button>
-                </div>
-                <div class="filter__item-content">
-                  <div class="form__input-group form__input-group-static">
-                    <input type="checkbox" id="gold" name="gold">
-                    <label for="gold">Gold</label>
-                  </div>
-                  <div class="form__input-group form__input-group-static">
-                    <input type="checkbox" id="silver" name="silver">
-                    <label for="silver">Silver</label>
-                  </div>
-                </div>
-              </div>
-              <div class="filter__item js-filter-accordion">
-                <div class="filter__item-title">
-                  Collection
-                  <button type="button" name="toggle" aria-label="show/hide faq item">
-                    <!-- 1х: 17px; -->
-                    <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--up"></use></svg>
-                    <!-- 1х: 17px; -->
-                    <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--down"></use></svg>
-                  </button>
-                </div>
-                <div class="filter__item-content">
-                  <div class="form__input-group form__input-group-static">
-                    <input type="checkbox" id="pink-flamingo" name="pink-flamingo">
-                    <label for="pink-flamingo">Pink flamingo</label>
-                  </div>
-                  <div class="form__input-group form__input-group-static">
-                    <input type="checkbox" id="dreams" name="dreams">
-                    <label for="dreams">Dreams</label>
-                  </div>
-                </div>
-              </div>
-              <div class="filter__item filter__item--price js-filter-accordion active">
-                <div class="filter__item-title">
-                  Price
-                  <button type="button" name="toggle" aria-label="show/hide faq item">
-                    <!-- 1х: 17px; -->
-                    <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--up"></use></svg>
-                    <!-- 1х: 17px; -->
-                    <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--down"></use></svg>
-                  </button>
-                </div>
-                <div class="filter__item-content">
-                  <div class="filter__range form__input-group-static">
-                    <div class="filter__range-line">
-                      <div class="filter__range-line-active"></div>
+                  <div class="filter__item-content">
+                    <div class="form__input-group form__input-group-static">
+                      <input type="checkbox" id="necklaces" name="necklaces" checked="">
+                      <label for="necklaces">Necklaces</label>
                     </div>
-                    <label>
-                      <input type="text" name="min-price" value="55">
-                      <!-- 1х: 9px; -->
-                      <svg width="9" height="14"><use xlink:href="#dollar"></use></svg>
-                      55
-                    </label>
-                    <label>
-                      <input type="text" name="max-price" value="155">
-                      <!-- 1х: 9px; -->
-                      <svg width="9" height="14"><use xlink:href="#dollar"></use></svg>
-                      155
-                    </label>
+                    <div class="form__input-group form__input-group-static">
+                      <input type="checkbox" id="chokers" name="chokers" checked="">
+                      <label for="chokers">Chokers</label>
+                    </div>
+                    <div class="form__input-group form__input-group-static">
+                      <input type="checkbox" id="rings" name="rings">
+                      <label for="rings">Rings</label>
+                    </div>
+                    <div class="form__input-group form__input-group-static">
+                      <input type="checkbox" id="earrings" name="earrings" checked="">
+                      <label for="earrings">Earrings</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__item js-filter-accordion">
+                  <div class="filter__item-title">
+                    Material
+                    <button type="button" name="toggle" aria-label="show/hide faq item">
+                      <!-- 1х: 17px; -->
+                      <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--up"></use></svg>
+                      <!-- 1х: 17px; -->
+                      <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--down"></use></svg>
+                    </button>
+                  </div>
+                  <div class="filter__item-content">
+                    <div class="form__input-group form__input-group-static">
+                      <input type="checkbox" id="gold" name="gold">
+                      <label for="gold">Gold</label>
+                    </div>
+                    <div class="form__input-group form__input-group-static">
+                      <input type="checkbox" id="silver" name="silver">
+                      <label for="silver">Silver</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__item js-filter-accordion">
+                  <div class="filter__item-title">
+                    Collection
+                    <button type="button" name="toggle" aria-label="show/hide faq item">
+                      <!-- 1х: 17px; -->
+                      <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--up"></use></svg>
+                      <!-- 1х: 17px; -->
+                      <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--down"></use></svg>
+                    </button>
+                  </div>
+                  <div class="filter__item-content">
+                    <div class="form__input-group form__input-group-static">
+                      <input type="checkbox" id="pink-flamingo" name="pink-flamingo">
+                      <label for="pink-flamingo">Pink flamingo</label>
+                    </div>
+                    <div class="form__input-group form__input-group-static">
+                      <input type="checkbox" id="dreams" name="dreams">
+                      <label for="dreams">Dreams</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__item filter__item--price js-filter-accordion active">
+                  <div class="filter__item-title">
+                    Price
+                    <button type="button" name="toggle" aria-label="show/hide faq item">
+                      <!-- 1х: 17px; -->
+                      <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--up"></use></svg>
+                      <!-- 1х: 17px; -->
+                      <svg width="17" height="10" aria-hidden="true"><use xlink:href="#shevron--down"></use></svg>
+                    </button>
+                  </div>
+                  <div class="filter__item-content">
+                    <div class="filter__range form__input-group-static">
+                      <div class="filter__range-line">
+                        <div class="filter__range-line-active"></div>
+                      </div>
+                      <label>
+                        <input type="text" name="min-price" value="55">
+                        <!-- 1х: 9px; -->
+                        <svg width="9" height="14"><use xlink:href="#dollar"></use></svg>
+                        55
+                      </label>
+                      <label>
+                        <input type="text" name="max-price" value="155">
+                        <!-- 1х: 9px; -->
+                        <svg width="9" height="14"><use xlink:href="#dollar"></use></svg>
+                        155
+                      </label>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -595,7 +597,7 @@
             <label for="log">Your E-mail</label>
           </div>
           <div class="form__input-group login__input-group login__input-group--password">
-            <input id="pass" type="password" name="password" minlength="6" maxlength="12" placeholder="Password" required="">
+            <input id="pass" type="password" name="password" placeholder="Password" required="">
             <label for="pass">Password</label>
             <a href="#">Forgot your password?</a>
           </div>
