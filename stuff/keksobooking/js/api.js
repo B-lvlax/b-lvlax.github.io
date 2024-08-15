@@ -1,5 +1,5 @@
-const DATA_FROM = 'https://23.javascript.pages.academy/keksobooking/data';
-const DATA_TO = 'https://23.javascript.pages.academy/keksobooking';
+const DATA_FROM = 'https://23.javascript.htmlacademy.pro/keksobooking/data';
+const DATA_TO = 'https://23.javascript.htmlacademy.pro/keksobooking';
 
 const getData = (onSuccess, onFail) => {
   fetch(DATA_FROM)
