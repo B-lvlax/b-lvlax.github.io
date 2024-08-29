@@ -14,85 +14,91 @@
 =====================================================================*/
 /* RALEWAY */
 @font-face {
-  src: url("/fonts/Raleway/Raleway500.woff2") format("woff2"), url("/fonts/Raleway/Raleway500.woff") format("woff"), url("/fonts/Raleway/Raleway500.otf") format("opentype");
+  src: url("../fonts/Raleway/Raleway500.woff2") format("woff2"), url("../fonts/Raleway/Raleway500.woff") format("woff"), url("../fonts/Raleway/Raleway500.otf") format("opentype");
   font-family: "Raleway Medium";
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  src: url("/fonts/Raleway/Raleway600.woff2") format("woff2"), url("/fonts/Raleway/Raleway600.woff") format("woff"), url("/fonts/Raleway/Raleway600.otf") format("opentype");
+  src: url("../fonts/Raleway/Raleway600.woff2") format("woff2"), url("../fonts/Raleway/Raleway600.woff") format("woff"), url("../fonts/Raleway/Raleway600.otf") format("opentype");
   font-family: "Raleway SemiBold";
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  src: url("/fonts/Raleway/Raleway700.woff2") format("woff2"), url("/fonts/Raleway/Raleway700.woff") format("woff"), url("/fonts/Raleway/Raleway700.otf") format("opentype");
+  src: url("../fonts/Raleway/Raleway700.woff2") format("woff2"),
+  url("../fonts/Raleway/Raleway700.woff") format("woff"),
+  url("../fonts/Raleway/Raleway700.otf") format("opentype");
   font-family: "Raleway Bold";
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  src: url("/fonts/Raleway/Raleway800.woff2") format("woff2"), url("/fonts/Raleway/Raleway800.woff") format("woff"), url("/fonts/Raleway/Raleway800.otf") format("opentype");
+  src: url("../fonts/Raleway/Raleway800.woff2") format("woff2"),
+  url("../fonts/Raleway/Raleway800.woff") format("woff"),
+  url("../fonts/Raleway/Raleway800.otf") format("opentype");
   font-family: "Raleway ExtraBold";
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  src: url("/fonts/Raleway/Raleway900.woff2") format("woff2"), url("/fonts/Raleway/Raleway900.woff") format("woff"), url("/fonts/Raleway/Raleway900.otf") format("opentype");
+  src: url("../fonts/Raleway/Raleway900.woff2") format("woff2"),
+  url("../fonts/Raleway/Raleway900.woff") format("woff"),
+  url("../fonts/Raleway/Raleway900.otf") format("opentype");
   font-family: "Raleway Black";
   font-weight: 400;
   font-style: normal;
 }
 /* OPEN SANS */
 @font-face {
-  src: url("/fonts/OpenSans/OpenSans-SemiBold.woff2") format("woff2"),
-  url("/fonts/OpenSans/OpenSans-SemiBold.woff") format("woff"),
-  url("/fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype");
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.woff2") format("woff2"),
+  url("../fonts/OpenSans/OpenSans-SemiBold.woff") format("woff"),
+  url("../fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype");
   font-family: "Open Sans SemiBold";
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  src: url("/fonts/OpenSans/OpenSans-Italic.woff2") format("woff2"),
-  url("/fonts/OpenSans/OpenSans-Italic.woff") format("woff"),
-  url("/fonts/OpenSans/OpenSans-Italic.ttf") format("truetype");
+  src: url("../fonts/OpenSans/OpenSans-Italic.woff2") format("woff2"),
+  url("../fonts/OpenSans/OpenSans-Italic.woff") format("woff"),
+  url("../fonts/OpenSans/OpenSans-Italic.ttf") format("truetype");
   font-family: "Open Sans Italic";
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  src: url("/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2"),
-  url("/fonts/OpenSans/OpenSans-Regular.woff") format("woff"),
-  url("/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+  src: url("../fonts/OpenSans/OpenSans-Regular.woff2") format("woff2"),
+  url("../fonts/OpenSans/OpenSans-Regular.woff") format("woff"),
+  url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
   font-family: "Open Sans Regular";
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  src: url("/fonts/OpenSans/OpenSans-Bold.woff2") format("woff2"),
-  url("/fonts/OpenSans/OpenSans-Bold.woff") format("woff"),
-  url("/fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+  src: url("../fonts/OpenSans/OpenSans-Bold.woff2") format("woff2"),
+  url("../fonts/OpenSans/OpenSans-Bold.woff") format("woff"),
+  url("../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
   font-family: "Open Sans Bold";
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  src: url("/fonts/OpenSans/OpenSans-BoldItalic.woff2") format("woff2"),
-  url("/fonts/OpenSans/OpenSans-BoldItalic.woff") format("woff"),
-  url("/fonts/OpenSans/OpenSans-BoldItalic.ttf") format("truetype");
+  src: url("../fonts/OpenSans/OpenSans-BoldItalic.woff2") format("woff2"),
+  url("../fonts/OpenSans/OpenSans-BoldItalic.woff") format("woff"),
+  url("../fonts/OpenSans/OpenSans-BoldItalic.ttf") format("truetype");
   font-family: "Open Sans Bold Italic";
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  src: url("/fonts/OpenSans/OpenSans-ExtraBold.woff2") format("woff2"),
-  url("/fonts/OpenSans/OpenSans-ExtraBold.woff") format("woff"),
-  url("/fonts/OpenSans/OpenSans-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/OpenSans/OpenSans-ExtraBold.woff2") format("woff2"),
+  url("../fonts/OpenSans/OpenSans-ExtraBold.woff") format("woff"),
+  url("../fonts/OpenSans/OpenSans-ExtraBold.ttf") format("truetype");
   font-family: "Open Sans ExtraBold";
   font-weight: 400;
   font-style: normal;
