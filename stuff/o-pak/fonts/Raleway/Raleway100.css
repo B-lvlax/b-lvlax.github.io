@@ -1,0 +1,6 @@
+@font-face {
+  src: url("/fonts/Raleway/Raleway100.woff2") format("woff2"), url("/fonts/Raleway/Raleway100.woff") format("woff"), url("/fonts/Raleway/Raleway100.otf") format("opentype");
+  font-family: "Raleway Thin";
+  font-weight: 400;
+  font-style: normal;
+}
