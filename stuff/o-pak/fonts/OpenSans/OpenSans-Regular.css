@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Open Sans Regular";
+  src:
+    url("/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2"),
+    url("/fonts/OpenSans/OpenSans-Regular.woff") format("woff"),
+    url("/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
